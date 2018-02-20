@@ -11,10 +11,10 @@ app.set('port', process.env.PORT || 8080);
 var stateBoundaries = require("./states.json");
 
 app.post('/', function (req,res) {
-    var response = [];  
-    var lat = req.body.latitude
-    var long = req.body.longitude
-    var found = false
+    var response = [],  
+        lat = req.body.latitude,
+        long = req.body.longitude,
+        found = false;
 
 //Traverse all the states 
     for(i in stateBoundaries.states){
@@ -46,9 +46,9 @@ http.createServer(app).listen(app.get('port'), function(){
 //Used this link as a reference for this function http://alienryderflex.com/polygon/
 function pointInPolygon(boundaries, x, y) {
 
-    var polyCorners = boundaries.length
-    var   i, j=polyCorners-1 ;
-    var  oddNodes=false;
+    var polyCorners = boundaries.length,
+        i, j=polyCorners-1,
+        oddNodes=false;
 
     for (i=0; i<polyCorners; i++) {
         if ((boundaries[i][1]< y && boundaries[j][1]>=y 
