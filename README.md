@@ -26,7 +26,7 @@ expecting something along those lines.
 And if there's anything special we have to do to run your program, just let us
 know. A Makefile never hurt anyone.
 
-##Instructions to run the server
+## Instructions to run the server
 
 Clone the repository and go to the directory
 
