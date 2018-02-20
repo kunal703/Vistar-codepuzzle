@@ -1,0 +1,25 @@
+{
+  "name": "state-server",
+  "version": "1.0.0",
+  "description": "Vistar serves up a mound of geospatial data both internally and to third parties. What we need is a server to tell us which state, if any, a point is in. Some simplified geometries are included in states.json (so greatly simplified, that some of the smaller ones disappear).",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunal703/Vistar-codepuzzle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunal703/Vistar-codepuzzle/issues"
+  },
+  "homepage": "https://github.com/kunal703/Vistar-codepuzzle#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "parser": "^0.1.4"
+  }
+}
