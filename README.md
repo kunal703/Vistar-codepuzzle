@@ -26,6 +26,12 @@ expecting something along those lines.
 And if there's anything special we have to do to run your program, just let us
 know. A Makefile never hurt anyone.
 
+## Solution
+
+The approach used is to check if the polygon formed by the state boundaries in the states.json contains the coordinates or not. If found, return the state name.
+
+The states.json provided had error in its structured, I made some changes to make it properly structured. We can now run the server and check states for the locations.
+
 ## Instructions to run the server
 
 Clone the repository and go to the directory
